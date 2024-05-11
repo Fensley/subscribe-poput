@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(133, 133, 219);
+  padding: 20px;
+}
+.container {
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 25px;
+  box-shadow: rgb(99, 99, 202) 16.95px 16.95px 1.6px;
+}
+.ctn {
+  padding: 10px 30px;
+}
+.xxx {
+  display: flex;
+  justify-content: end;
+}
+.fa-fire {
+  font-size: 37px;
+  border-bottom: 3px solid;
+  padding: 1px;
+}
+
+h2 {
+  margin: 15px 0;
+}
+input {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+input:focus {
+  outline: none;
+}
+button {
+  color: white;
+  background-color: rgb(69, 69, 214);
+  border: none;
+  padding: 11px;
+  width: 110px;
+  margin-left: -12px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+button:hover {
+  opacity: 0.9;
+}
+.fa-x:hover {
+  cursor: pointer;
+  color: rgb(69, 69, 214);
+}
+@media (max-width: 447px) {
+  button {
+    margin-left: 0;
+  }
+}
